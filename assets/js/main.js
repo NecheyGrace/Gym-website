@@ -1,4 +1,3 @@
-const { delay } = require("underscore");
 
 /*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById("nav-menu"),
