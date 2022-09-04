@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    height: 3.0rem;
+    background: red;
+
+}
+ul{
+   
+    margin-bottom: 50px ;
+    
+}
+nav ul li{
+    list-style: none;
+}
+li > a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: wheat;
+    font-weight: 150px;
+    font-family: 'Poppins', sans-serif;
+
+}
+img{
+    width: 3.5rem;
+}
+a:visited{
+    background-color: blue;
+}
+ul{
+    float: right;
+}
+li{
+    display: inline-grid;
+    padding: 0px 10px;
+    margin-top: 11px;
+  
+}
+div ~ p{
+    background-color: palevioletred;
+    opacity: 0.5;
+}
+body{
+    color: gainsboro;
+}
+
+.container{
+  background-color: rgb(23, 58, 54 );
+  color: aquamarine;
+}
+button{
+    background-color: blue;
+    width: 150px;
+    height: 80px;
+}
+.column{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: purple;
+}
+@media screen and (max-width:600px){
+    .column{
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+/*CSS SYNTAX
+h1{
+    property:value;
+    color:black;                                                                                                                                                                         
+}
+CSS SELECTORS
+ID, CLASS- SIMPLE SELECTORS
+COMBINATOR SELECTORS - descendant, child, adjacent sibling, general sibling
+style - internal, inline, external 
+
+colors - RGB, HEX, RGBA, HSLA
+Backgrounds
+opacity - 0 through 1
+borders right, top, left, bottom
+margin, padding, height and weight
+*/                                                                             
